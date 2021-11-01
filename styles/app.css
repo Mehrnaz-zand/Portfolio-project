@@ -71,7 +71,7 @@ p {
   padding: 160px 20px;
 }
 .about-description {
-  margin: 20px;
+  margin: 30px;
 }
 
 .mehrnaz {
@@ -130,5 +130,8 @@ p {
   }
   .about-hero h1 {
     font-size: 44px;
+  }
+  .mehrnaz {
+    max-width: 75%;
   }
 }
