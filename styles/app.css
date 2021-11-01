@@ -16,10 +16,28 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 85.31px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
+.btn-branding-project {
+  border-radius: 4px;
+  border: 1px solid var(--first-color);
+  padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--first-color);
+  font-family: var(--default-font-family);
+}
+
 .heading {
   text-align: center;
   background-color: var(--forth-color);
@@ -34,7 +52,7 @@ p {
 h1 {
   font-size: 96px;
   font-weight: bold;
-  line-height: 128px;
+  line-height: 1.5;
 }
 .heading h2 {
   font-size: 24px;
@@ -52,4 +70,22 @@ h1 {
   color: white;
   font-family: var(--default-font-family);
   margin-top: 67px;
+}
+.project-description {
+  padding: 120px 60px 0;
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  .container h2 {
+    font-size: 34px;
+  }
+  .heading {
+    padding: 80px 20px;
+  }
 }
