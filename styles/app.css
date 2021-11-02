@@ -57,6 +57,13 @@ h2 {
   line-height: 27px;
   font-family: var(--default-font-family);
 }
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
 .content p {
   font-size: 16px;
   line-height: 30px;
@@ -72,7 +79,6 @@ h2 {
 }
 .content {
   margin: 30px;
-  text-align: center;
 }
 
 .mehrnaz {
