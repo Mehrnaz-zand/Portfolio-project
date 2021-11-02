@@ -124,6 +124,7 @@ h2 {
   line-height: 27px;
   color: var(--first-color);
   font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
 }
 .btn-branding-about {
   background: var(--first-color);
@@ -133,6 +134,7 @@ h2 {
   line-height: 27px;
   color: white;
   font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
 }
 .logo {
   max-height: 68px;
@@ -152,16 +154,62 @@ nav li {
   line-height: 68px;
   margin-left: 24px;
 }
-nav a {
+a {
   text-decoration: none;
   color: black;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
+a:hover,
 nav li.active a {
   color: var(--first-color);
 }
+.footer-box {
+  background-color: var(--forth-color);
+  padding: 30px 90px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.footer-box h2 {
+  font-size: 48px;
+  line-height: 63.48px;
+}
+.footer-box p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+}
+.footer-button {
+  font-size: 16px;
+}
+.footer-social {
+  margin: 60px 0;
+}
+footer .footer-mail {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
+}
+footer .footer-mail:hover {
+  color: var(--first-color);
+}
 
+.icon {
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 20.7px;
+  color: var(--first-color);
+  border: 1px solid var(--forth-color);
+  border-radius: 100px;
+  background-color: var(--forth-color);
+  transition: all 100ms ease-in-out;
+}
+.icon:hover {
+  border-color: var(--first-color);
+  cursor: pointer;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -192,6 +240,29 @@ nav li.active a {
   }
   .mehrnaz {
     max-width: 75%;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-box {
+    padding: 30px;
+  }
+  .footer-box p,
+  .footer-button {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .footer-box h2 {
+    font-size: 27px;
+    line-height: 1;
+  }
+
+  .footer-mail {
+    font-size: 14px !important;
+  }
+  .icon {
+    font-size: 10px;
+    line-height: 1;
   }
   @media (max-width: 540px) {
     nav li a {
