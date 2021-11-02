@@ -160,6 +160,9 @@ h2 {
   .content h1 {
     font-size: 44px;
   }
+  .content h3 {
+    font-size: 20px;
+  }
   .mehrnaz {
     max-width: 75%;
   }
