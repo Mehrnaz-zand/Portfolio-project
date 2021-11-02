@@ -196,9 +196,11 @@ nav li.active a {
   @media (max-width: 540px) {
     nav li a {
       font-size: 14px;
-      line-height: 20px;
-      margin: 0;
-      padding: 0;
+      line-height: 10px;
+    }
+    .logo {
+      max-height: 30px;
+      margin-top: 13px;
     }
   }
 }
