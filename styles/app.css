@@ -137,6 +137,7 @@ h2 {
   font-family: var(--default-font-family);
   transition: all 100ms ease-in-out;
 }
+
 .logo {
   max-height: 68px;
 }
@@ -258,6 +259,7 @@ footer .footer-mail:hover {
   .btn-branding-about {
     font-size: 14px;
   }
+
   .mehrnaz {
     max-width: 75%;
   }
