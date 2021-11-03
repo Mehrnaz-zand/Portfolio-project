@@ -289,14 +289,14 @@ footer .footer-mail:hover {
     font-size: 10px;
     line-height: 1;
   }
-  @media (max-width: 540px) {
-    nav li a {
-      font-size: 14px;
-      line-height: 10px;
-    }
-    .logo {
-      max-height: 30px;
-      margin-top: 13px;
-    }
+}
+@media (max-width: 540px) {
+  nav li a {
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .logo {
+    max-height: 30px;
+    margin-top: 13px;
   }
 }
